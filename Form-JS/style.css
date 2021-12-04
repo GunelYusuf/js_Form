@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 50px auto;
+}
+.row{
+    padding: 20px 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 15px;
+    color:rgb(80, 155, 158);
+}
+
+.passwordInput{
+   text-align :center;
+   width: 170px;
+}
+
+.displayBadge{
+    margin-left: 20px;
+   width:70px;
+   display:none;
+   text-align :center;
+
+}
+body{
+    background-color: bisque;
+}
+#submit{
+    margin-bottom: 55px;
+    width: 100px;
+    margin-left: 475px;
+    background-color: cadetblue;
+    color: #FFF;
+    border-radius: 2px;
+    border:rgb(12, 84, 87);
+    font-size: 16px;
+}
+form{
+    width:25%;
+    margin:40px 25px;
+    background: rgb(230, 230, 230);
+  
+}
+input, label{
+    display:block;
+    width:80%;
+    margin-left:20px;
+    padding:10px 0;
+}
+
+ .error-message{
+    margin-left:20px;
+    color:red;
+}
+#formError{
+    color: crimson;
+}
+
